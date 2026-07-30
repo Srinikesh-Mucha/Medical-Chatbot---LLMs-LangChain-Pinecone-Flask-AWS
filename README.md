@@ -1,4 +1,4 @@
-# 🩺 Medical-Chatbot---LLMs-LangChain-Pinecone-Flask-AWS
+# 🩺 Medical-Chatbot: LLMs-LangChain-Pinecone-Flask-AWS
 
 An end-to-end AI-powered medical chatbot that delivers context-aware responses to medical queries using **Retrieval-Augmented Generation (RAG)**. The application retrieves relevant information from a medical knowledge base before generating responses with **Llama-3.3-70B-Versatile** (served via the Groq API), resulting in fast, reliable and accurate answers.
 
@@ -30,13 +30,20 @@ Built with **Python**, **Flask**, **LangChain**, **Pinecone Vector Database**, *
 
 ### Techstack Used:
 
-- Python
-- LangChain
-- Flask
-- GPT
-- Pinecone
+## 🛠️ Tech Stack
 
-# How to run?
+- Python
+- Flask
+- LangChain
+- Llama-3.3-70B-Versatile (Groq API)
+- Hugging Face Embeddings
+- Pinecone Vector Database
+- Docker
+- GitHub Actions
+- Amazon ECR
+- AWS EC2
+
+## 🚀 Getting Started
 ### STEPS:
 
 Clone the repository
@@ -87,70 +94,21 @@ open up localhost:
 
 # AWS-CICD-Deployment-with-Github-Actions
 
-## 1. Login to AWS console.
+## ☁️ Deployment
 
-## 2. Create IAM user for deployment
+This project uses an automated CI/CD pipeline:
 
-	#with specific access
+1. Push code to GitHub
+2. GitHub Actions builds the Docker image
+3. Docker image is pushed to Amazon ECR
+4. AWS EC2 pulls the latest image
+5. Docker container is restarted automatically
 
-	1. EC2 access : It is virtual machine
+### Required GitHub Secrets
 
-	2. ECR: Elastic Container registry to save your docker image in aws
-
-
-	#Description: About the deployment
-
-	1. Build docker image of the source code
-
-	2. Push your docker image to ECR
-
-	3. Launch Your EC2 
-
-	4. Pull Your image from ECR in EC2
-
-	5. Lauch your docker image in EC2
-
-	#Policy:
-
-	1. AmazonEC2ContainerRegistryFullAccess
-
-	2. AmazonEC2FullAccess
-
-	
-## 3. Create ECR repo to store/save docker image
-    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/medicalbot
-
-	
-## 4. Create EC2 machine (Ubuntu) 
-
-## 5. Open EC2 and Install docker in EC2 Machine:
-	
-	
-	#optinal
-
-	sudo apt-get update -y
-
-	sudo apt-get upgrade
-	
-	#required
-
-	curl -fsSL https://get.docker.com -o get-docker.sh
-
-	sudo sh get-docker.sh
-
-	sudo usermod -aG docker ubuntu
-
-	newgrp docker
-	
-# 6. Configure EC2 as self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
-
-
-# 7. Setup github secrets:
-
-   - AWS_ACCESS_KEY_ID
-   - AWS_SECRET_ACCESS_KEY
-   - AWS_DEFAULT_REGION
-   - ECR_REPO
-   - PINECONE_API_KEY
-   - GROQ_API_KEY
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_DEFAULT_REGION
+- ECR_REPO
+- PINECONE_API_KEY
+- GROQ_API_KEY
