@@ -1,5 +1,17 @@
 # Medical-Chatbot---LLMs-LangChain-Pinecone-Flask-AWS
 
+## 🎥 Project Demo
+
+<p align="center">
+  <a href="./assets/demo.mp4">
+    <img src="./assets/demo.png" alt="Medical Chatbot Demo" width="900">
+  </a>
+</p>
+
+<p align="center">
+  <b>Click the thumbnail above to watch the demo.</b>
+</p>
+
 # How to run?
 ### STEPS:
 
