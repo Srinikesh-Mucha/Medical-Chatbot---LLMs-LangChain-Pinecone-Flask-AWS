@@ -3,13 +3,13 @@
 ## 🎥 Project Demo
 
 <p align="center">
-  <a href="./assets/demo.mp4">
-    <img src="./assets/demo.png" alt="Medical Chatbot Demo" width="900">
+  <a href="https://github.com/user-attachments/assets/57287ce5-584a-4a11-876e-b936df1dff09">
+    <img src="assets/demo.png" width="900" alt="Medical Chatbot Demo">
   </a>
 </p>
 
 <p align="center">
-  <b>Click the thumbnail above to watch the demo.</b>
+<b>Click the thumbnail to watch the demo video.</b>
 </p>
 
 # How to run?
