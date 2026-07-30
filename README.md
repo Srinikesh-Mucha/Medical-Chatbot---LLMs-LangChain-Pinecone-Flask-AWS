@@ -18,7 +18,7 @@ Built with **Python**, **Flask**, **LangChain**, **Pinecone Vector Database**, *
 <b>Click the thumbnail to watch the demo video.</b>
 </p>
 
-## 📸 Application Screenshots
+## 📸 Application Screenshot
 
 <p align="center">
   <img src="assets/Screenshot 2026-07-30 130444.png" alt="Home Page" width="600">
@@ -87,7 +87,7 @@ PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-
+### STEP 03- run the code
 ```bash
 # run the following command to store embeddings to pinecone
 python store_index.py
