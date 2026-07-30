@@ -1,4 +1,10 @@
-# Medical-Chatbot---LLMs-LangChain-Pinecone-Flask-AWS
+# 🩺 Medical-Chatbot---LLMs-LangChain-Pinecone-Flask-AWS
+
+An end-to-end AI-powered medical chatbot that delivers context-aware responses to medical queries using **Retrieval-Augmented Generation (RAG)**. The application retrieves relevant information from a medical knowledge base before generating responses with **OpenAI GPT-4o**, resulting in more accurate and reliable answers.
+
+Built with **Python**, **Flask**, **LangChain**, **Pinecone Vector Database**, **Hugging Face Embeddings**, and **Docker**, the application is deployed on **AWS EC2** with an automated **CI/CD pipeline** powered by **GitHub Actions** and **Amazon ECR**.
+
+🚀 **Live Demo:** Try the deployed application here: **http://100.54.24.62:8080/**
 
 ## 🎥 Project Demo
 
@@ -11,6 +17,24 @@
 <p align="center">
 <b>Click the thumbnail to watch the demo video.</b>
 </p>
+
+## ✨ Key Features
+
+- 🧠 Retrieval-Augmented Generation (RAG) for context-aware medical responses
+- 📚 Medical knowledge retrieval using *The Gale Encyclopedia of Medicine*
+- 🔍 Semantic search with Hugging Face embeddings and Pinecone
+- 🤖 AI-powered responses using OpenAI GPT-4o
+- 🌐 Interactive chat interface built with Flask, HTML, and CSS
+- 🐳 Dockerized application for consistent deployment
+- ☁️ Automated CI/CD pipeline using GitHub Actions, Amazon ECR, and AWS EC2
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- GPT
+- Pinecone
 
 # How to run?
 ### STEPS:
@@ -59,16 +83,6 @@ Now,
 ```bash
 open up localhost:
 ```
-
-
-### Techstack Used:
-
-- Python
-- LangChain
-- Flask
-- GPT
-- Pinecone
-
 
 
 # AWS-CICD-Deployment-with-Github-Actions
