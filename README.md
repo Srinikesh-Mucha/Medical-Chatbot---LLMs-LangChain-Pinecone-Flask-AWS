@@ -10,13 +10,25 @@ Built with **Python**, **Flask**, **LangChain**, **Pinecone Vector Database**, *
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/57287ce5-584a-4a11-876e-b936df1dff09">
-    <img src="assets/demo.png" width="900" alt="Medical Chatbot Demo">
+    <img src="assets/demo.png" width="600" alt="Medical Chatbot Demo">
   </a>
 </p>
 
 <p align="center">
 <b>Click the thumbnail to watch the demo video.</b>
 </p>
+
+## 📸 Application Screenshots
+
+<p align="center">
+  <img src="assets/Screenshot 2026-07-30 130444.png" alt="Home Page" width="600">
+</p>
+
+<p align="center">
+  <em>AI-powered Medical Response using RAG</em>
+</p>
+
+<br>
 
 ## ✨ Key Features
 
