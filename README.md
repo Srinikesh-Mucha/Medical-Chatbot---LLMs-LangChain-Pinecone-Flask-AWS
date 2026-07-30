@@ -1,6 +1,6 @@
 # 🩺 Medical-Chatbot---LLMs-LangChain-Pinecone-Flask-AWS
 
-An end-to-end AI-powered medical chatbot that delivers context-aware responses to medical queries using **Retrieval-Augmented Generation (RAG)**. The application retrieves relevant information from a medical knowledge base before generating responses with **OpenAI GPT-4o**, resulting in more accurate and reliable answers.
+An end-to-end AI-powered medical chatbot that delivers context-aware responses to medical queries using **Retrieval-Augmented Generation (RAG)**. The application retrieves relevant information from a medical knowledge base before generating responses with **Llama-3.3-70B-Versatile** (served via the Groq API), resulting in fast, reliable and accurate answers.
 
 Built with **Python**, **Flask**, **LangChain**, **Pinecone Vector Database**, **Hugging Face Embeddings**, and **Docker**, the application is deployed on **AWS EC2** with an automated **CI/CD pipeline** powered by **GitHub Actions** and **Amazon ECR**.
 
@@ -23,7 +23,7 @@ Built with **Python**, **Flask**, **LangChain**, **Pinecone Vector Database**, *
 - 🧠 Retrieval-Augmented Generation (RAG) for context-aware medical responses
 - 📚 Medical knowledge retrieval using *The Gale Encyclopedia of Medicine*
 - 🔍 Semantic search with Hugging Face embeddings and Pinecone
-- 🤖 AI-powered responses using OpenAI GPT-4o
+- 🤖 AI-powered responses using **Llama-3.3-70B-Versatile** via the Groq API
 - 🌐 Interactive chat interface built with Flask, HTML, and CSS
 - 🐳 Dockerized application for consistent deployment
 - ☁️ Automated CI/CD pipeline using GitHub Actions, Amazon ECR, and AWS EC2
